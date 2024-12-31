@@ -1,0 +1,59 @@
+body{
+    background-color: aliceblue;
+}
+.bg1{
+    background-image: url(images/sky1.jpg);
+    
+}
+.bg2{
+    background-image: url(images/sky2.jpg);
+}
+.bg3{
+    background-image: url(images/sky3.jpg);
+}
+.bg4{
+    background-image: url(images/sky4.jpg);
+}
+color1{
+    background-color: antiquewhite;
+}
+color2{
+    background-color: antiquewhite;
+}
+color3{
+    background-color: antiquewhite;
+}
+color4{
+    background-color: antiquewhite;
+}
+html, body{
+    height: 100%;
+}
+.fixed_bg, .infos{
+    height: 100%;
+    position: relative;
+}
+.fixed_bg{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fixed_text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: aliceblue;
+    transform: translateX(-50%)translateY(-50%);
+    
+}
+.red_block{
+    width: 500px;
+    height: 300px;
+    margin: 200px;
+    background-color: brown;
+    text-align: center;
+    line-height: 300px;
+    font-size: 50px;
+    color: aliceblue;
+}
